@@ -19,3 +19,9 @@ radius=15
 area=3.14*radius*radius
 print("Area is:",area)
 OUTPUT-Area is: 706.5
+  
+  width=5.5
+height=2
+
+print("Area is",width*height)
+output=Area is:11.0
