@@ -14,3 +14,8 @@ we need used this bracket
 '''
 print('raja')
 output-raja
+DAY 2 SESSION 2-READING USER MIND
+radius=15
+area=3.14*radius*radius
+print("Area is:",area)
+OUTPUT-Area is: 706.5
