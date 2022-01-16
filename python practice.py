@@ -36,3 +36,7 @@ stolen_coins=3
 total_coins=found_coins+magic_coins*365-stolen_coins*52
 print (total_coins)
 output-3514
+stolen_coins=2
+total_coins=found_coins+magic_coins*365-stolen_coins*52
+print(total_coins)
+output-3566
