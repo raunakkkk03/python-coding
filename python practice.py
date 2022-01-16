@@ -47,3 +47,11 @@ miles=100
 kilometers=miles*1.609
 print(kilometers)
 output-160.9
+
+TO TAKE INPUT FROM USER-"EVAL"
+radius=eval(input("enter the radius"))
+area=3.14*radius*radius
+print("Area is:",area)
+output-enter the radius15
+Area is: 706.5
+
