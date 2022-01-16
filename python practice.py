@@ -40,3 +40,10 @@ stolen_coins=2
 total_coins=found_coins+magic_coins*365-stolen_coins*52
 print(total_coins)
 output-3566
+
+Question is-we have given -
+used a variable named miles with initial value100 Multiply miles by1.609 and assign to a variable named kilometers,display kilometers.
+miles=100
+kilometers=miles*1.609
+print(kilometers)
+output-160.9
