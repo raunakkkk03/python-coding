@@ -25,3 +25,7 @@ height=2
 
 print("Area is",width*height)
 output=Area is:11.0
+
+  total_coins=20+10*365-52*3
+print (total_coins)
+output-3514
