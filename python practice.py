@@ -55,3 +55,16 @@ print("Area is:",area)
 output-enter the radius15
 Area is: 706.5
 
+  radius=10
+radius=eval(input("enter the radius"))
+area=3.14*radius*radius
+print("Area is:",area)
+output-enter the radius20
+1256.0
+
+radius=eval(input("enter the radius"))
+radius=10
+area=3.14*radius*radius
+print("Area is:",area)
+ouput-enter the radius20
+314.0
