@@ -113,3 +113,10 @@ a= 10 b= 20
 after swapping
 a= 20 b= 10
 
+TO COMPUTE THE AVERAGE OF THREE NUMBERS BY THE INPUT USER IN A SINGLE LINE
+a,b,c=eval(input("enter 3 numbers separated by,"))
+avg=(a+b+c)/3
+print("avg is:",avg)
+OUTPUT-
+enter 3 numbers separated by,10,20,30
+avg is: 20.0
