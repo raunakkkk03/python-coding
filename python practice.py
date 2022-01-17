@@ -83,3 +83,13 @@ enter the first number6
 enter the second number5
 enter the third number11
 Avg is: 7.333333333333333
+TO SWAP OF TWO VARIABLES
+a=10
+b=20
+c=0
+c=a
+a=b
+b=c
+print("a=",a,"b=",b)
+OUTPUT-
+a=20,b=10
