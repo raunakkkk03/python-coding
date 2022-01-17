@@ -68,3 +68,7 @@ area=3.14*radius*radius
 print("Area is:",area)
 ouput-enter the radius20
 314.0
+num=eval(input("enter the number"))
+enter the number12
+num
+12
