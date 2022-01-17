@@ -72,3 +72,14 @@ num=eval(input("enter the number"))
 enter the number12
 num
 12
+TO COMPUTE THE AVERAGE OF THREE NUMBERS BY THE INPUT USER
+a=eval(input("enter the first number"))
+b=eval(input("enter the second number"))
+c=eval(input("enter the third number"))
+avg=(a+b+c)/3
+print("Avg is:",avg)
+OUTPUT-
+enter the first number6
+enter the second number5
+enter the third number11
+Avg is: 7.333333333333333
