@@ -83,13 +83,33 @@ enter the first number6
 enter the second number5
 enter the third number11
 Avg is: 7.333333333333333
-TO SWAP OF TWO VARIABLES
+TO SWAP OF TWO VARIABLES USING THIRD VARIABLE
 a=10
 b=20
+print("before swapping")
+print("a=",a,"b=",b)
 c=0
 c=a
 a=b
 b=c
+print("after swapping")
 print("a=",a,"b=",b)
 OUTPUT-
-a=20,b=10
+before swapping
+a= 10 b= 20
+after swapping
+a= 20 b= 10
+TO SWAP TWO VARIABLES WITHOUT USING THIRD VARIABLE
+a=10
+b=20
+print("before swapping")
+print("a=",a,"b=",b)
+a,b=b,a
+print("after swapping")
+print("a=",a,"b=",b)
+OUTPUT-
+before swapping
+a= 10 b= 20
+after swapping
+a= 20 b= 10
+
