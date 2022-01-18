@@ -148,3 +148,12 @@ print("fetch the last digit:",last)
 output-
 enter the number256455
 fetch the last digit: 55
+DISTNCE BETWEEN TWO PONTS TAKING INPUT BY USER
+x1,y1=eval(input("enetr x1,y1"))
+x2,y2=eval(input("enter x2,y2"))
+distance=((x2-x1)**2 + (y2-y1)**2)**0.5
+print("distance is:",distance)
+OUTPUT-
+enter x1,y10,0
+enter x2,y24,0
+distance is: 4.0
