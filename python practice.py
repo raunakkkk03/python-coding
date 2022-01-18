@@ -136,3 +136,9 @@ OUTPUT-ENTER THE NUMBER=65423
 if we take an float number then
 enter the number=425.6
 ouput=42.0
+FETCH THE LAST DIGIT
+num=eval(input("enter the number"))
+last=num%10
+print("fetch the last digit:",last)
+OUTPUT-ENTER THE NUMBER=854256
+6
