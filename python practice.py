@@ -133,3 +133,6 @@ num=num//10
 print("after removing last digit:",num)
 OUTPUT-ENTER THE NUMBER=65423
 6542
+if we take an float number then
+enter the number=425.6
+ouput=42.0
