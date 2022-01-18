@@ -142,3 +142,9 @@ last=num%10
 print("fetch the last digit:",last)
 OUTPUT-ENTER THE NUMBER=854256
 6
+num=eval(input("enter the number"))
+last=num%100
+print("fetch the last digit:",last)
+output-
+enter the number256455
+fetch the last digit: 55
