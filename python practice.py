@@ -128,3 +128,8 @@ INPUT-2//4
 REMOVE LAST DIGIT OF A GIVEN NUMBER
 56425//10
 OUPUT-5642
+num=eval(input("enter the number"))
+num=num//10
+print("after removing last digit:",num)
+OUTPUT-ENTER THE NUMBER=65423
+6542
