@@ -120,3 +120,8 @@ print("avg is:",avg)
 OUTPUT-
 enter 3 numbers separated by,10,20,30
 avg is: 20.0
+NUMBERS REPLACED
+INPUT-2/4
+0.5
+INPUT-2//4
+0
