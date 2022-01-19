@@ -157,3 +157,10 @@ OUTPUT-
 enter x1,y10,0
 enter x2,y24,0
 distance is: 4.0
+IF-ELSE-ELIF STATEMENT
+radius=eval(input("enter the radius"))
+if radius>0:
+    area=3.14*radius*radius
+    print("area is :",area)
+OUPUT-ENTER THE RADIUS=6
+area is : 113.03999999999999
