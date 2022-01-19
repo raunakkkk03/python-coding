@@ -191,3 +191,15 @@ enter the number14
 even number
 enter the number23
 odd number
+USE ELSE STATEMENT
+num=eval(input("enter the number"))
+if num%2==0:
+    print("even number")
+
+else:
+    print("odd number")
+OUTPUT-
+enter the number14
+even number
+enter the number23
+odd number
