@@ -164,3 +164,18 @@ if radius>0:
     print("area is :",area)
 OUPUT-ENTER THE RADIUS=6
 area is : 113.03999999999999
+DIVISIBILITY BY 10 AND 5
+num=eval(input("enter the number"))
+if num%5==0:
+    print("hifive")
+
+if num%2==0:
+    print("hieven")
+OUTPUT-
+enter the number25
+hifive
+enter the number12
+hieven
+enter the number10
+hifive
+hieven
