@@ -231,3 +231,19 @@ enter center coordinates x1,y1:2,1
 enter radius of circle2
 enter point coordinates x2,y2:3,4
 outside the curcle
+USE ELIF STATEMENT
+x1,y1=eval(input("enter center coordinates x1,y1:"))
+radius=eval(input("enter radius of circle"))
+x2,y2=eval(input("enter point coordinates x2,y2:"))
+distance=((x2-x1)**2+(y2-y1)**2)**0.5
+if distance>radius:
+    print("outside the curcle")
+elif distance<radius:
+    print("inside the circle")
+else:
+    print("on the circle")
+OUTPUT-
+enter center coordinates x1,y1:2,1
+enter radius of circle2
+enter point coordinates x2,y2:2,3
+on the circle
