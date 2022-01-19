@@ -203,3 +203,17 @@ enter the number14
 even number
 enter the number23
 odd number
+TO FIND THE DISTANCE
+x1,y1=eval(input("enter center coordinates x1,y1:"))
+radius=eval(input("enter radius of circle"))
+x2,y2=eval(input("enter point coordinates x2,y2:"))
+distance=((x2-x1)**2+(y2-y1)**2)**0.5
+if distance>radius:
+    print("outside the curcle")
+else:
+    print("inside the circle")
+OUTPUT-
+enter center coordinates x1,y1:2,1
+enter radius of circle2
+enter point coordinates x2,y2:3,2
+inside the circle
