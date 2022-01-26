@@ -247,3 +247,507 @@ enter center coordinates x1,y1:2,1
 enter radius of circle2
 enter point coordinates x2,y2:2,3
 on the circle
+USE LOOP
+for i in range(1,101):
+    print(i)
+OUTPUT-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+for i in range(101):
+    print(i)
+OUTPUT-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+for i in range(101):
+    print(i)
+OUTPUT-
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+for i in range(101):
+    print(i)
+OUTPUT-
+print any table by input user
+num=eval(input("enter the number"))
+for i in range(1,11):
+    print(num*i)
+  OUTPUT-
+  2
+  4
+  6
+  8
+  10
+  12
+  14
+  16
+  18
+  20
+USING WHILE LOOP
+i=1
+while i<10:
+    print(i)
+    i=i+1
+OUTPUT-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+SUM OF 9 NUMBERS
+sum=0
+i=1
+while i<10:
+  sum=sum+i
+  i=i+1
+print(i)
+OUTPUT-45 
+ FIND RANDOM INTEGER NUMBER B/W 0 AND 100
+  import random
+num=random.randint(0,100)
+guess=eval(input("enter a guess between 0 and 100"))
+if guess < num:
+    print("guess is too low!")
+elif guess==num:
+    print("guess is correct!!")
+else:
+    print("guess is too high!")
+OUPUT-
+enter a guess between 0 and 10034
+guess is too high!
+
+import random
+num=random.randint(0,100)
+guess=-1
+while guess !=num:
+    guess=eval(input("enter a guess between 0 and 100"))
+    if guess < num:
+        print("guess is too low!")
+    elif guess==num:
+        print("guess is correct!!")
+    else:
+        print("guess is too high!")
+OUTPUT-
+enter a guess between 0 and 10065
+guess is too low!
+enter a guess between 0 and 10095
+guess is too high!
+enter a guess between 0 and 10080
+guess is too low!
+enter a guess between 0 and 10085
+guess is too high!
+enter a guess between 0 and 10082
+guess is too high!
+enter a guess between 0 and 10081
+guess is correct!!
+
+for i in range(10):
+    for j in range(10):
+        print("going loopy n loopy")
+OUTPUT-
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+going loopy n loopy
+
+TO CHECK ABOVE PROGRAM HOW MANY TIMES IT EXECUTES USE COUNT FUNCTION
+count=0
+for i in range(10):
+    for j in range(10):
+        count=count+1
+print(count)
+OUTPUT-
+100
