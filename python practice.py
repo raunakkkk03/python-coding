@@ -541,3 +541,88 @@ for i in range(10):
 print(count)
 OUTPUT-
 100
+PROGRAM to find all the factors of a number input by user
+num=eval(input())
+for divisor in range(1,num+1):
+    if num % divisor==0:
+        print(divisor)
+OUTPUT-
+18
+1
+2
+3
+6
+9
+18
+To find the hcf of two number by input user separated by ,
+a,b=eval(input("enter two numbers separated by ,: "))
+start=1
+end=min(a,b)
+for divisor in range(start,end+1):
+    if a % divisor==0 and b % divisor==0:
+        hcf=divisor
+print("HCF is: ",hcf)        
+OUTPUT-
+HCF is :5
+ To find the fast hcf of two number using machine
+a,b=eval(input("enter two numbers separated by,:"))
+r=a%b
+while r!=0:
+    a,b=b,r
+    r=a%b
+print("HCF is",b)    
+OUTPUT-
+enter two numbers separated by,:12345678654,854612358
+HCF is 6
+
+num=eval(input("enter the number"))
+count=0
+for divisor in range(1,num+1):
+    if num % divisor == 0:
+        count=count+1
+if count ==2:
+    print("prime number")
+else:
+    print("non-prime number")
+OUTPUT-
+enter the number13
+prime number
+enter the number26
+non-prime number
+USE BREAK STATEMENT
+for i in range(1,11):
+    print(i)
+    if i==5:
+        break
+print("out of loop")    
+OUTPUT-
+1
+2
+3
+4
+5
+out of loop
+
+num=eval(input("enter the number"))
+isprime = True
+for divisor in range(2,num):
+ if num % divisor ==0:
+    isprime=False
+    break
+ if isprime:
+    print("prime number")
+ else:
+    print("non-prime number")
+OUTPUT-
+enter the number13
+prime number
+prime number
+prime number
+prime number
+prime number
+prime number
+prime number
+prime number
+prime number
+prime number
+prime number
