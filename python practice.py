@@ -640,3 +640,97 @@ print(lcm)
 OUTPUT-
 ENTER TWO NUMBER2,3
 6
+USING DEF FUNCTION
+TO FIND THE SUM OF  GIVEN NUMBER
+def mysum(start,end):
+    sum=0
+    for i in range(start,end):
+        sum=sum+i
+    print("sum is",sum)
+
+mysum(1,11)
+mysum(50,100)
+mysum(20,200)
+OUTPUT-
+sum is 55
+sum is 3725
+sum is 19710
+FIND THE GRADE SCORE-
+def printgrade(score):
+    if score >=90.0:
+        print('A')
+    elif score >=80.0:
+        print('B')
+    elif score >=70.0:
+        print('C')
+    elif score >=60.0:
+        print('D')
+    else:
+        print('F')
+
+
+score=eval(input("enter a score: "))
+print("before calling function")
+printgrade(score)
+print("after calling function")
+OUTPUT-
+enter a score: 75
+before calling function
+C
+after calling function
+IF WE USE GET THEN WE USE RETURN-
+def getgrade(score):
+    if score >=90.0:
+        return('A')
+    elif score >=80.0:
+        return('B')
+    elif score >=70.0:
+        return('C')
+    elif score >=60.0:
+        return('D')
+    else:
+        return('F')
+
+
+score=eval(input("enter a score: "))
+print("before calling function")
+grade=getgrade(score)
+print(grade)
+print("after calling function")
+OUTPUT-
+enter a score: 75
+before calling function
+C
+after calling function
+TO FIND THE HCF BY USING FUNCTION
+def hcf (a,b):
+ start=1
+ end=min(a,b)
+ for divisor in range(start,end+1):
+     if a % divisor==0 and b % divisor==0:
+         hcf=divisor
+ print("HCF is: ",hcf)
+
+a,b=eval(input("enter two numbers separated by ,: "))
+hcf(a,b)  
+OUTPUT-
+enter two numbers separated by ,: 10,15
+HCF is:  5
+  LCM-
+  def hcf (a,b):
+ start=1
+ end=min(a,b)
+ for divisor in range(start,end+1):
+     if a % divisor==0 and b % divisor==0:
+         hcf=divisor
+ return hcf
+
+a,b=eval(input("enter two numbers separated by ,: "))
+result = hcf(a,b)  
+print("HCF is:",result)
+lcm=a*b/result
+print("LCM is:",lcm)
+OUTPUT-
+enter two numbers separated by ,: 10,15
+HCF is: 5
+LCM is: 30.0
