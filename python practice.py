@@ -734,3 +734,56 @@ OUTPUT-
 enter two numbers separated by ,: 10,15
 HCF is: 5
 LCM is: 30.0
+USING MODULE
+TIME MODULE
+time.time()
+1643478102.6222088
+>>> time.ctime(1643478102.6222088)
+'Sat Jan 29 23:11:42 2022'
+TIME DELAY MODULE
+import time
+for i in range(10):
+    print (i)
+    time.sleep(2)
+OUTPUT-
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+IT WILL WORK IN 2 SECONDS
+
+OPEN YOUTUBE LINK BY USING PYTHON
+import webbrowser
+import time
+webbrowser.open('https://www.youtube.com/watch?v=wn8VH6MWK4M')
+
+import webbrowser
+import time
+time.sleep(5)
+webbrowser.open('https://www.youtube.com/watch?v=wn8VH6MWK4M')
+
+import webbrowser
+import time
+while True:
+  time.sleep(5)
+  webbrowser.open('https://www.youtube.com/watch?v=wn8VH6MWK4M')
+MAKE A NEW FOLDER BY USING COMMAND PROMPY
+
+C:\Users\AJAY GUPTA>cd C:\Users\AJAY GUPTA\Desktop\Neenu
+
+C:\Users\AJAY GUPTA\Desktop\Neenu>mkdir new2
+
+C:\Users\AJAY GUPTA\Desktop\Neenu>
+  USE OS MODULE-TO CREATE A NEW FOLDER BY USING PYTHON
+  os.getcwd()
+'C:\\Users\\AJAY GUPTA\\AppData\\Local\\Programs\\Python\\Python39'
+>>> os.chdir("C:\\Users\\AJAY GUPTA\\Desktop")
+>>> os.getcwd()
+'C:\\Users\\AJAY GUPTA\\Desktop'
+>>> os.mkdir('new')
