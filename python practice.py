@@ -787,3 +787,130 @@ C:\Users\AJAY GUPTA\Desktop\Neenu>
 >>> os.getcwd()
 'C:\\Users\\AJAY GUPTA\\Desktop'
 >>> os.mkdir('new')
+USING STRING
+len("raunak")
+6
+s=str('welcome to python')
+s
+'welcome to python'
+len(s)
+17
+USING ORD
+ord('a')
+97
+>>> ord('z')
+122
+USING MIN OR MAX FUNCTION
+max('raunak')
+'u'
+>>> max('gupta')
+'u'
+>>> min('yati')
+'a'
+>>> min('ajay')
+'a'
+USING INDEX-
+s="geeksforgeeks"
+>>> s[5]
+'f'
+type(s)
+<class 'str'>
+>>> s[len(s)-1]
+'s'
+>>> s[len(s)-3]
+'e'
+SLICING OPERATOR
+s
+'geeksforgeeks'
+>>> s[5:8]
+'for'
+CONTENATION OPERATOR
+s1='welcome to'
+>>> s2='geeksfrogeeks'
+>>> s1+s2
+'welcome togeeksfrogeeks'
+>>> s1 + " " +s2
+'welcome to geeksfrogeeks'
+REPETION OPERATOR
+ "hello"*2
+'hellohello'
+>>> 'hello' * 2
+'hellohello'
+>>> 2*'hello'
+'hellohello'
+IN OPERATOR
+>>> 'w' in s1
+True
+>>> 'W' in s1
+False
+>>> 'to' in s1
+True
+>>> 'co' in s1
+True
+COMPARING STRING
+"Hello" < "Ho"
+True
+>>> "Hello" < "Hi"
+True
+SEARCHING FOR SUB-TITLE
+>>> s="welcome to python"
+>>>  t="python is fun"
+>>> s.endswith('python')
+True
+>>> t.endswith('python')
+False
+>>> t.startswith('python')
+True
+>>> s.startswith('python')
+False
+>>> s.find('to')
+8
+>>> s.find('too')
+-1
+>>> s.find('o')
+4
+>>> s.rfind('o')
+15
+>>> s.count('o')
+3
+>>> 
+>>> s
+'welcome to python'
+>>> s="welcome to python"
+>>> s.capitalize()
+'Welcome to python'
+>>> s=s.capitalize()
+>>> s.lower()
+'welcome to python'
+>>> s.upper()
+'WELCOME TO PYTHON'
+>>> s=s.upper()
+>>> s
+'WELCOME TO PYTHON'
+>>> s=s.title()
+>>> s
+'Welcome To Python'
+>>> s=s.swapcase()
+>>> s
+'wELCOME tO pYTHON'
+>>> s.replace('wELCOME','say hi!')
+'say hi! tO pYTHON'
+PALINDROME STRING
+s=input("enter the string")
+start=0
+end=len(s)-1
+while start<end:
+    if s[start]==s[end]:
+        start=start+1
+        end=end-1
+    else:
+        break
+if start<end:
+    print("not palindrome")
+else:
+    print("palindrome")
+OUTPUT
+enter the stringmalayalam
+palindrome
+enter the stringraunak
+not palindrome
